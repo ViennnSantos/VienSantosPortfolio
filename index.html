@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vien Santos | Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- CERTIFICATE MODAL -->
+    <div class="cert-modal" id="certModal">
+        <div class="cert-modal-overlay" onclick="closeCertModal()"></div>
+        <div class="cert-modal-content">
+            <button class="cert-modal-close" onclick="closeCertModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <iframe id="certIframe" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-tag">Available for opportunities</span>
+                    <h1 class="name">Vien Ezekiel<br>Santos</h1>
+                    <p class="title">Junior Developer & IT Student</p>
+                    <p class="bio">Transforming ideas into functional web experiences through clean code and modern design. Passionate about building intuitive and efficient digital solutions.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.png" alt="Vien Santos" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-inner">
+                <div class="section-label">About Me</div>
+                <h2 class="section-heading">Who I Am</h2>
+                <p class="about-text">Motivated and detail-oriented BS Information Technology student at STI College Dasmariñas. I have hands-on experience in front-end development and building web-based systems, with a strong foundation in HTML, CSS, and JavaScript. I've developed academic and personal projects including web applications and ordering systems, demonstrating my ability to apply technical skills to real-world scenarios. I'm eager to continuously learn and contribute to a professional team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-label">What I Know</div>
+            <h2 class="section-heading">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Programming & Web</h3>
+                    <div class="skill-tags">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>GoHighLevel</span>
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Basic SAP</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Core IT</h3>
+                    <div class="skill-tags">
+                        <span>Technical Support</span>
+                        <span>Troubleshooting</span>
+                        <span>Networking</span>
+                        <span>Database Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-label">What I've Built</div>
+            <h2 class="section-heading">Featured Project</h2>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/chaseaquatics-screenshot.png" alt="ChaseAquatics">
+                    <a href="https://chaseaquatics.com/" target="_blank" class="project-live-btn">
+                        <i class="fas fa-external-link-alt"></i> View Live
+                    </a>
+                </div>
+                <div class="project-info">
+                    <h3>ChaseAquatics</h3>
+                    <p class="project-type">E-Commerce Platform</p>
+                    <p>A comprehensive e-commerce website for aquarium enthusiasts, featuring product catalogs, inquiry systems, and seamless ordering functionality. Built with modern automation workflows for efficient customer management.</p>
+                    <div class="project-tech">
+                        <span>GoHighLevel</span>
+                        <span>Automation</span>
+                        <span>E-Commerce</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-label">Where I've Worked</div>
+            <h2 class="section-heading">Work Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-body">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Junior Developer</h3>
+                                <p class="company">Multiply Talents</p>
+                            </div>
+                            <span class="duration">Jul 2025 – Mar 2026</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Developed and maintained client websites using GoHighLevel (GHL)</li>
+                            <li>Implemented front-end updates, form setups, and automation workflows</li>
+                            <li>Conducted testing and troubleshooting before deployment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-body">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>IT Intern</h3>
+                                <p class="company">Honda Cars Carmona</p>
+                            </div>
+                            <span class="duration">Feb 2026 – May 2026</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Assisted in troubleshooting hardware, software, and network-related issues</li>
+                            <li>Provided technical support and assisted in basic SAP-related tasks and system navigation</li>
+                            <li>Organized and maintained digital records, files, and technical documentation</li>
+                            <li>Supported employees with technical concerns for smooth daily IT operations</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-label">What I've Earned</div>
+            <h2 class="section-heading">Certifications</h2>
+            <div class="certs-grid">
+
+                <div class="cert-card" onclick="openCertModal('certificates/SysAdCert.pdf')">
+                    <div class="cert-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Systems Administration</h3>
+                        <p class="cert-issuer">STI College · Linux Professional Institute</p>
+                        <p class="cert-date">June 24, 2023</p>
+                    </div>
+                    <i class="fas fa-chevron-right cert-arrow"></i>
+                </div>
+
+                <div class="cert-card" onclick="openCertModal('certificates/JavaCert.pdf')">
+                    <div class="cert-icon" style="background: linear-gradient(135deg, #f80000, #c0392b);">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Java Fundamentals</h3>
+                        <p class="cert-issuer">Oracle Academy</p>
+                        <p class="cert-date">June 24, 2023</p>
+                    </div>
+                    <i class="fas fa-chevron-right cert-arrow"></i>
+                </div>
+
+                <div class="cert-card" onclick="openCertModal('certificates/CyberCert.pdf')">
+                    <div class="cert-icon" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Cybersecurity Fundamentals</h3>
+                        <p class="cert-issuer">STI College</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                    <i class="fas fa-chevron-right cert-arrow"></i>
+                </div>
+
+                <div class="cert-card" onclick="openCertModal('certificates/OjtCert.pdf')">
+                    <div class="cert-icon" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
+                        <i class="fas fa-id-badge"></i>
+                    </div>
+                    <div class="cert-info">
+                        <h3>OJT Completion Certificate</h3>
+                        <p class="cert-issuer">Honda Cars Carmona</p>
+                        <p class="cert-date">May 2026</p>
+                    </div>
+                    <i class="fas fa-chevron-right cert-arrow"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-label light">Say Hello</div>
+            <h2 class="section-heading light">Let's Connect</h2>
+            <p class="contact-sub">I'm always open to new projects, creative ideas, or opportunities to be part of your vision.</p>
+
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xykybvwa" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="form-status" id="formStatus"></div>
+                <input type="hidden" name="_gotcha" style="display:none">
+                <input type="hidden" name="_subject" value="New Portfolio Contact">
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/vien-santos-7239b1327/" target="_blank" class="social-btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/ViennnSantos" target="_blank" class="social-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.upwork.com/freelancers/~0169b88f5957556129" target="_blank" class="social-btn">
+                    <i class="fas fa-briefcase"></i> Upwork
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vien Santos. All rights reserved.</p>
+            <p class="footer-sub">GMA, Cavite, Philippines</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
